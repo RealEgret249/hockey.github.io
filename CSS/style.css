@@ -1,0 +1,22 @@
+
+
+#boutton {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    gap: 15px; /* Espace entre les boutons */
+    padding: 10px; /* Espace intérieur */
+}
+
+#boutton button {
+    padding: 8px 16px;
+    /* styles supplémentaires si besoin */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+#boutton button:hover {
+    background-color: #ddd;
+}
