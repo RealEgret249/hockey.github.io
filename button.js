@@ -10,7 +10,7 @@ function Accueil() {
         return true
     }
     else  {
-        window.location.href = "/index.html"
+        window.location.href = "./index.html"
     }
     
 }
@@ -20,7 +20,7 @@ function Faute() {
         return true
     }
     else {
-        window.location.href = "/Faute_FOL/Faute.html"
+        window.location.href = "./Faute_FOL/Faute.html"
     }
     
 }
